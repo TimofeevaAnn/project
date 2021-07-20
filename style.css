@@ -1,0 +1,221 @@
+body{
+    font-family: 'Noto Sans', sans-serif;/* подключение шрифта */
+    font-size: 15px; /*размер тектса по умолчанию*/
+    color: #000 ; /*цвет по умолчанию*/
+    line-height: 1.1; /*межстрочное расстояние по умолчанию*/
+    margin: 0;
+    
+}
+* {
+    box-sizing: border-box;
+} /*для всех элементов страницы*/
+
+.container{
+    width: 100%; /*задействуется вся ширина экрана*/
+    max-width: 1500px; /*обозначение максимального кол-во пикселей*/
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0; 
+}
+.intro{
+    width: 100%;/*задействуется вся ширина экрана*/
+    height: 100vh;/*задействуется вся высота экрана пользователя*/
+    background-color:#f0d9c7;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.intro1{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.intro2{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50%;
+}
+.intro2:hover{
+    color: #5c534c;
+}
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: -webkit-sticky;
+    z-index: 1000;
+    background-color: #b8aaa0;
+    position: sticky;
+    padding-top: 15px;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav{
+    font-size: 15px;  
+}
+.nav_link{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+.nav_link:hover{
+    color: #5c534c;
+}
+.about{
+    width: 100%;/*задействуется вся ширина экрана*/
+    height: 100vh;/*задействуется вся высота экрана пользователя*/
+    background-color:#fff;
+    padding: 300px 0;
+    display:  inline-block;
+}
+.about_header{
+    width: 45%;
+    
+}
+.about_all{
+    display:  flex;
+}
+.about1{  
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.about2{
+    width: 100%;
+    max-width:700px;  
+}
+.contact{
+    padding-left: 20%; 
+}
+.contact1{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.contact2{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    
+    font-size: 30px;
+    line-height: 1.7;
+}
+.contact2:hover{
+    color: #82624a;
+}
+.project{
+    width: 100%;/*задействуется вся ширина экрана*/
+    height: 100vh;/*задействуется вся высота экрана пользователя*/
+    background-color:#d6b9a3;
+    padding: 100px 0;
+}
+.project_title{
+    width: 100%; /*задействуется вся ширина экрана*/
+    max-width: 1500px; /*обозначение максимального кол-во пикселей*/
+    margin: 0 auto;
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+.photo1{
+    display: flex;
+}
+.img1{
+    padding-bottom: 40px;
+    
+    width: 600px;
+    height: 350px;
+}
+.text111{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+    width: 100%; /*задействуется вся ширина экрана*/
+    max-width: 1500px; /*обозначение максимального кол-во пикселей*/
+    margin: 0 auto;
+}
+.text111:hover{
+    color: #5c534c;
+}
+
+@media (max-width:677px) {
+    .img1{
+        max-width: 500px;
+        max-height: 300px;
+    } 
+}
+@media (max-width:557px) {
+    .img1{
+        max-width: 350px;
+        max-height: 200px;
+    } 
+    .intro1{
+        font-size: 60px;
+    } 
+    .about1{
+        font-size: 30px; 
+    }
+    .contact1{
+        font-size: 30px;
+    }
+    .intro2{font-size: 20px;}
+    .about2{
+        font-size: 15px;
+    }
+}
+@media(max-width:400px){
+    .img1{
+        padding-left: 15px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        max-width: 200px;
+        max-height: 100px;
+    } 
+    .intro1{
+        padding-top: 150px;
+        font-size: 40px;
+        padding-bottom: 100px;
+    } 
+    .about1{
+        font-size: 20px; 
+    }
+    .contact1{
+        font-size: 20px;
+    }
+    .intro2{
+        font-size: 15px;
+    }
+    .contact2{font-size: 15px;}
+    .pr_tt1{
+        padding-left: 15px;
+        padding-top: 100px;
+        font-size: 30px;
+    }
+    .nav_link{font-size: 12px;}
+    .prr{font-size: 15px;}
+    .about{padding: 170px 0;}
+    .text111{
+        padding-top: 20px;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .project_title{
+        padding-bottom: 50px;
+    }
+    .project{
+        padding: 0px;
+    }
+}
