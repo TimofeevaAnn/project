@@ -151,71 +151,212 @@ h1,h2,h3,h4,h5,h6{
     color: #5c534c;
 }
 
-@media (max-width:677px) {
-    .img1{
-        max-width: 500px;
-        max-height: 300px;
-    } 
-}
-@media (max-width:557px) {
-    .img1{
-        max-width: 350px;
-        max-height: 200px;
-    } 
-    .intro1{
-        font-size: 60px;
-    } 
-    .about1{
-        font-size: 30px; 
-    }
-    .contact1{
-        font-size: 30px;
-    }
+/*mogo g4 and galaxy s5*/
+@media(width:360px){
+    .prr{font-size: 20px;}
+    .nav_link{font-size: 13px;}
+    .intro1{font-size: 40px;}
     .intro2{font-size: 20px;}
-    .about2{
-        font-size: 15px;
-    }
+    .about1{font-size: 25px;}
+    .about2{font-size: 17px;}
+    .contact1{font-size: 25px;}
+    .contact2{font-size: 17px;}
+    .pr_tt1{font-size: 30px;}
+    .img1{width: 200px;
+    height: 150px;}
+    .text111{font-size: 20px;}
 }
-@media(max-width:400px){
+@media(height:640px){
+    .intro1{padding-top: 200px;
+    padding-bottom: 150px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 100px;}
+    .img1{width: 200px;
+    height: 150px;}
+    .text111{font-size: 20px;}
+}
+
+/*pixel 2 and pixel 2XL*/
+@media(width:411px){
+    .prr{font-size: 20px;}
+    .nav_link{font-size: 13px;}
+    .intro1{font-size: 40px;}
+    .intro2{font-size: 20px;}
+    .about1{font-size: 25px;}
+    .about2{font-size: 17px;}
+    .contact1{font-size: 25px;}
+    .contact2{font-size: 17px;}
+    .pr_tt1{font-size: 40px;}
     .img1{
-        padding-left: 15px;
-        padding-right: 50px;
-        padding-bottom: 10px;
-        max-width: 200px;
-        max-height: 100px;
-    } 
-    .intro1{
-        padding-top: 150px;
-        font-size: 40px;
-        padding-bottom: 100px;
-    } 
-    .about1{
-        font-size: 20px; 
+        width: 400px;
+        height: 240px;
     }
-    .contact1{
-        font-size: 20px;
+    .text111{font-size: 20px;}
+}
+@media(height:731px){
+    .intro1{padding-top: 200px;
+    padding-bottom: 300px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 100px;}
+}
+@media(height:823px){
+    .intro1{padding-top: 220px;
+    padding-bottom: 350px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 100px;}
+}
+/*iphone 5/se*/
+@media(width:320px){
+    .prr{font-size: 17px;}
+    .nav_link{font-size: 11px;}
+    .intro1{font-size: 35px;}
+    .intro2{font-size: 15px;}
+    .about1{font-size: 20px;}
+    .about2{font-size: 12px;}
+    .contact1{font-size: 20px;}
+    .contact2{font-size: 12px;}
+    .pr_tt1{font-size: 20px;}
+    .img1{width: 300px;
+    height: 210px;}
+    .text111{font-size: 20px;}
+}
+@media(height:568px){
+    .intro1{padding-top: 190px;
+    padding-bottom: 150px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 80px;}
+}
+/*iphone 6/7/8*/
+@media(width:375px){
+    .prr{font-size: 22px;}
+    .nav_link{font-size: 13px;}
+    .intro1{font-size: 45px;}
+    .intro2{font-size: 20px;}
+    .about1{font-size: 25px;}
+    .about2{font-size: 17px;}
+    .contact1{font-size: 25px;}
+    .contact2{font-size: 20px;}
+    .pr_tt1{font-size: 25px;}
+    .project{padding: 0px;}
+    .img1{width: 360px;
+    height: 230px;}
+    .text111{font-size: 20px;}
+}
+@media(height:667px){
+    .intro1{padding-top: 190px;
+    padding-bottom: 150px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 170px;}
+
+}
+@media(height:736px){
+    .intro1{padding-top: 200px;
+    padding-bottom: 300px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 100px;}
+}
+@media(width:414px){
+    .prr{font-size: 20px;}
+    .nav_link{font-size: 13px;}
+    .intro1{font-size: 40px;}
+    .intro2{font-size: 20px;}
+    .about1{font-size: 25px;}
+    .about2{font-size: 17px;}
+    .contact1{font-size: 25px;}
+    .contact2{font-size: 17px;}
+    .pr_tt1{font-size: 40px;}
+    .img1{
+        width: 400px;
+        height: 240px;
     }
-    .intro2{
-        font-size: 15px;
+    .text111{font-size: 20px;}
+}
+
+@media(height:812px){
+    .intro1{padding-top: 260px;
+    padding-bottom: 190px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 170px;}
+
+}
+@media(height:1024px){
+    .intro1{padding-top: 200px;
+    padding-bottom: 100px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 100px;}
+    .prr{font-size: 30px;}
+    .nav_link{font-size: 23px;}
+}
+
+@media(width:1024px){
+    .prr{font-size: 35px;}
+    .nav_link{font-size: 28px;}
+    .intro1{font-size: 100px;}
+    .intro2{font-size: 40px;}
+    .about1{font-size: 50px;}
+    .about2{font-size: 30px;}
+    .contact1{font-size: 50px;}
+    .contact2{font-size: 35px;}
+    .pr_tt1{font-size: 70px;}
+    .img1{
+        width: 700px;
+        height: 540px;
     }
-    .contact2{font-size: 15px;}
-    .pr_tt1{
-        padding-left: 15px;
-        padding-top: 100px;
-        font-size: 30px;
+    .text111{font-size: 50px;}
+}
+@media(height:1366px){
+    .intro1{padding-top: 200px;
+    padding-bottom: 190px;}
+    .about{padding-top:500px;}
+    .pr_tt1{padding-top: 100px;}
+    .prr{font-size: 30px;}
+    .nav_link{font-size: 23px;}
+}
+
+@media(width:540px){
+    .prr{font-size: 20px;}
+    .nav_link{font-size: 13px;}
+    .intro1{font-size: 40px;}
+    .intro2{font-size: 20px;}
+    .about1{font-size: 25px;}
+    .about2{font-size: 17px;}
+    .contact1{font-size: 25px;}
+    .contact2{font-size: 17px;}
+    .pr_tt1{font-size: 40px;}
+    .img1{
+        width: 400px;
+        height: 240px;
     }
-    .nav_link{font-size: 12px;}
-    .prr{font-size: 15px;}
-    .about{padding: 170px 0;}
-    .text111{
-        padding-top: 20px;
-        font-size: 20px;
-        padding-left: 15px;
-    }
-    .project_title{
-        padding-bottom: 50px;
-    }
-    .project{
-        padding: 0px;
-    }
+    .text111{font-size: 20px;}
+}
+@media(height:720px){
+    .intro1{padding-top: 260px;
+    padding-bottom: 190px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 170px;}
+
+}
+
+@media(width:280px){
+    .prr{font-size: 20px;}
+    .nav_link{font-size: 13px;}
+    .intro1{font-size: 35px;}
+    .intro2{font-size: 20px;}
+    .about1{font-size: 20px;}
+    .about2{font-size: 13px;}
+    .contact1{font-size: 20px;}
+    .contact2{font-size: 14px;}
+    .pr_tt1{font-size: 30px;}
+    .img1{width: 200px;
+    height: 150px;}
+    .text111{font-size: 20px;}
+}
+@media(height:653px){
+    .intro1{padding-top: 200px;
+    padding-bottom: 150px;}
+    .about{padding-top:200px;}
+    .pr_tt1{padding-top: 100px;}
+    .img1{width: 200px;
+    height: 150px;}
+    .text111{font-size: 20px;}
 }
